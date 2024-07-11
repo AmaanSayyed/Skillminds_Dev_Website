@@ -1,0 +1,58 @@
+=======================React Hooks================
+-let name="Mario" => this variable is not reactive , so to make the reactive values we need hooks.
+-Hooks are functions that let you “hook into” React state and lifecycle features from function components. 
+-Hooks allow function components to have access to state and other React features.
+
+1.State Hooks
+- Lets component remember informations like user input.
+- to add state component we can use one of these hooks.
+1.1 useState declares a state variable that you can update directly.
+1.2 useReducer declares a state variable with 
+
+eg:Image gallery component can use state to store the index of image.
+function ImageGallery() {
+  const [index, setIndex] = useState(0);
+  // ...
+}
+
+
+2.Context Hooks
+- Context is a way to manage state globally, without using props
+- using props can be problematic to pass it in deep nested components.
+-For example, your app’s top-level component can pass the current UI theme to all components below, no matter how deep.
+
+function Button() {
+  const theme = useContext(ThemeContext);
+}
+
+3.Ref Hooks
+-Refs let a component hold some information that isn’t used for rendering, like a DOM node or a timeout ID
+-Unlike with state, updating a ref does not re-render your component. 
+-It can be used to store a mutable value that does not cause a re-render when updated.
+-It can be used to access a DOM element directly.
+function Form() {
+  const inputRef = useRef(null);
+  // ...
+}
+
+4.Effect Hooks
+-Effects let a component connect to and synchronize with external systems.
+-allows you to perform side effects in your components.
+-examples of side effects are: fetching data, directly updating the DOM, and timers.
+-useEffect accepts two arguments. The second argument is optional.
+
+useEffect(<function>, <dependency>)
+
+5.Performace Hooks
+-A common way to optimize re-rendering performance is to skip unnecessary work.
+- For example, you can tell React to reuse a cached calculation or to skip a re-render if the data has not changed since the previous render.
+
+-To skip calculations and unnecessary re-rendering, use one of these Hooks:
+
+5.1 useMemo lets you cache the result of an expensive calculation.
+5.2 useCallback lets you cache a function definition before passing it down to an optimized component.
+
+function TodoList({ todos, tab, theme }) {
+  const visibleTodos = useMemo(() => filterTodos(todos, tab), [todos, tab]);
+  // ...
+}
