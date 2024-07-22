@@ -1,5 +1,5 @@
 import './index.css'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import Header from './Header/Header';
 import Home from './Home/Home';
 import ScrollTop from './utilites/ScrollTop';
@@ -51,7 +51,9 @@ const App=()=> {
         </Route>
 
         
-        <Route path="*" component={() => <h1>Page Not Found</h1>} />
+        <Route path="*">
+          <Redirect to="/"/>
+        </Route>
       </Switch>
       <Footer/>
     </div>
