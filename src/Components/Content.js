@@ -19,7 +19,7 @@ const Contents = () => {
               <div className="hero-style16">
                 <span className="sub-title">
                   <div className="icon-masking me-2">
-                    <img src="../assets/img/theme-img/title_shape_4.svg" alt="shape" />
+                    <img src="./assets/img/theme-img/title_shape_4.svg" alt="shape" />
                   </div>
                   Welcome to Skillminds
                 </span>
@@ -34,13 +34,13 @@ const Contents = () => {
                   <div className="about-client-box style2 mb-sm-0 mb-3">
                     <div className="client-thumb-group">
                       <div className="thumb">
-                        <img src="/assets/img/profile_rv_1.jpg" alt="avater" />
+                        <img src="./assets/img/profile_rv_1.jpg" alt="avater" />
                       </div>
                       <div className="thumb">
-                        <img src="/assets/img/profile_rv_2.jpg" alt="avater" />
+                        <img src="./assets/img/profile_rv_2.jpg" alt="avater" />
                       </div>
                       <div className="thumb">
-                        <img src="/assets/img/profile_rv_1.jpg" alt="avater" />
+                        <img src="./assets/img/profile_rv_1.jpg" alt="avater" />
                       </div>
                     </div>
                     <div className="cilent-box">
@@ -76,7 +76,7 @@ const Contents = () => {
             <div className="col-xl-6">
               <div className="th-hero-image">
                 <div className="th-hero-thumb">
-                  <img src="/assets/img/hero/hero_img_15_1.png" alt="img" />
+                  <img src="./assets/img/hero/hero_img_15_1.png" alt="img" />
                 </div>
               </div>
             </div>
@@ -84,13 +84,13 @@ const Contents = () => {
         </div>
       </div>
       <div className="shape-mockup d-none d-xl-block" data-bottom="8%" data-left="4%">
-        <img src="/assets/img/shape/shape_7.png" alt="shape" />
+        <img src="./assets/img/shape/shape_7.png" alt="shape" />
       </div>
       <div className="shape-mockup movingX d-none d-xl-block" data-top="54%" data-right="44%">
-        <img src="/assets/img/shape/shape_8.png" alt="shape" />
+        <img src="./assets/img/shape/shape_8.png" alt="shape" />
       </div>
       <div className="shape-mockup spin d-none d-xl-block" data-bottom="14%" data-right="6%">
-        <img src="/assets/img/shape/shape_9.png" alt="shape" />
+        <img src="./assets/img/shape/shape_9.png" alt="shape" />
       </div>
     </div>
 
