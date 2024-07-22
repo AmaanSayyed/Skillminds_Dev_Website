@@ -19,7 +19,7 @@ const Contents = () => {
               <div className="hero-style16">
                 <span className="sub-title">
                   <div className="icon-masking me-2">
-                    <img src="/assets/img/theme-img/title_shape_4.svg" alt="shape" />
+                    <img src="../assets/img/theme-img/title_shape_4.svg" alt="shape" />
                   </div>
                   Welcome to Skillminds
                 </span>
