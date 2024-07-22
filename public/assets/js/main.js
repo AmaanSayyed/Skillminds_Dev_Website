@@ -548,81 +548,81 @@ onePageNav('.scroll-down');
     };
     popupSideMenu('.sidemenu-wrapper', '.sideMenuToggler', '.sideMenuCls', 'show');
 
-    /*----------- 12. Magnific Popup ----------*/
-    /* magnificPopup img view */
-    $(".popup-image").magnificPopup({
-        type: "image",
-        mainClass: 'mfp-zoom-in', 
-        removalDelay: 260,
-        gallery: {
-            enabled: true,
-        },
-    });
+    // /*----------- 12. Magnific Popup ----------*/
+    // /* magnificPopup img view */
+    // $(".popup-image").magnificPopup({
+    //     type: "image",
+    //     mainClass: 'mfp-zoom-in', 
+    //     removalDelay: 260,
+    //     gallery: {
+    //         enabled: true,
+    //     },
+    // });
 
-    /* magnificPopup video view */
-    $(".popup-video").magnificPopup({
-        type: "iframe",
-        mainClass: 'mfp-zoom-in', 
-        removalDelay: 260,
-    });
+    // /* magnificPopup video view */
+    // $(".popup-video").magnificPopup({
+    //     type: "iframe",
+    //     mainClass: 'mfp-zoom-in', 
+    //     removalDelay: 260,
+    // });
 
-    /* magnificPopup video view */
-    $(".popup-content").magnificPopup({
-        type: "inline",
-        midClick: true,
-    });
+    // /* magnificPopup video view */
+    // $(".popup-content").magnificPopup({
+    //     type: "inline",
+    //     midClick: true,
+    // });
 
-    /*  footer animation  */ 
-    $(".th-screen").length && $(window).on("scroll", function () {   
-        ! function (t, a = 0) {
-            var i = $(window).scrollTop(),
-                o = i + $(window).height(), 
-                s = $(t).offset().top;
-            return s + $(t).height() - parseInt(a) <= o && s >= i
-        }
-        (".th-screen", 200) ? $(".th-screen").removeClass("th-visible"): $(".th-screen").addClass("th-visible")
-    }),  
+    // /*  footer animation  */ 
+    // $(".th-screen").length && $(window).on("scroll", function () {   
+    //     ! function (t, a = 0) {
+    //         var i = $(window).scrollTop(),
+    //             o = i + $(window).height(), 
+    //             s = $(t).offset().top;
+    //         return s + $(t).height() - parseInt(a) <= o && s >= i
+    //     }
+    //     (".th-screen", 200) ? $(".th-screen").removeClass("th-visible"): $(".th-screen").addClass("th-visible")
+    // }),  
     
 
-    function content_ready_scripts() {
-        const boxes = gsap.utils.toArray('.global-image'); 
-        boxes.forEach(img => {
-            gsap.to(img, {
-                scrollTrigger: {
-                    trigger: img,
-                    start: "top 70%",
-                    end: "bottom bottom",
-                    toggleClass: "active", 
-                    once: true,
-                }
-            });
-        });
-    }
+    // function content_ready_scripts() {
+    //     const boxes = gsap.utils.toArray('.global-image'); 
+    //     boxes.forEach(img => {
+    //         gsap.to(img, {
+    //             scrollTrigger: {
+    //                 trigger: img,
+    //                 start: "top 70%",
+    //                 end: "bottom bottom",
+    //                 toggleClass: "active", 
+    //                 once: true,
+    //             }
+    //         });
+    //     });
+    // }
 
-    if($('.th-anim').length){
-        gsap.registerPlugin(ScrollTrigger);
-        let revealContainers = document.querySelectorAll(".th-anim"); 
-        revealContainers.forEach((container) => {
-          let image = container.querySelector("img");
-          let tl = gsap.timeline({
-            scrollTrigger: {
-            trigger: container,
-            toggleActions: "play none none none"
-            }
-          });
-          tl.set(container, { autoAlpha: 1 });
-          tl.from(container, 1.5, {
-            xPercent: -100,
-            ease: Power2.out
-          });
-          tl.from(image, 1.5, {
-            xPercent: 100,
-            scale: 1.3,
-            delay: -1.5,
-            ease: Power2.out
-          });
-        });
-    }    
+    // if($('.th-anim').length){
+    //     gsap.registerPlugin(ScrollTrigger);
+    //     let revealContainers = document.querySelectorAll(".th-anim"); 
+    //     revealContainers.forEach((container) => {
+    //       let image = container.querySelector("img");
+    //       let tl = gsap.timeline({
+    //         scrollTrigger: {
+    //         trigger: container,
+    //         toggleActions: "play none none none"
+    //         }
+    //       });
+    //       tl.set(container, { autoAlpha: 1 });
+    //       tl.from(container, 1.5, {
+    //         xPercent: -100,
+    //         ease: Power2.out
+    //       });
+    //       tl.from(image, 1.5, {
+    //         xPercent: 100,
+    //         scale: 1.3,
+    //         delay: -1.5,
+    //         ease: Power2.out
+    //       });
+    //     });
+    // }    
 
 
     /*---------- 13. Section Position ----------*/

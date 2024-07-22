@@ -9,7 +9,11 @@ module.exports = {
   prefix: 'tw-', // Add this line to scope Tailwind CSS
   important: true,
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        'custom': '4px 5px 5px -1px rgba(0, 0, 0, 0.1), -2px 2px 4px 2px rgba(0, 0, 0, 0.06)',
+      },
+    },
   },
   plugins: [],
 }

@@ -6,11 +6,11 @@ const HeaderTop = () => {
                     <div className="col-auto d-none d-md-block">
                         <div className="header-links">
                             <ul>
-                                <li><i className="fa-regular fa-phone"></i><a href="tel:+25632542598">+91-9322825631</a></li>
+                                <li><i className="fa-regular fa-phone"></i><a href="tel:+919322825631">+91-9322825631</a></li>
                                 <li className="d-none d-xl-inline-block"><i className="fa-sharp fa-regular fa-location-dot"></i>
                                     <span>Ruddhi Sankul-1st floor,Nashik ,India </span>
                                 </li>
-                                <li><i className="fa-regular fa-envelope"></i><a href="mailto:help@webteck.com">info@skillminds.in</a>
+                                <li><i className="fa-regular fa-envelope"></i><a href="mailto:info@skillminds.in">info@skillminds.in</a>
                                 </li>
                             </ul>
                         </div>
