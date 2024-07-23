@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Skillminds_Dev_Website/static/css/main.0fa87b74.css",
-    "main.js": "/Skillminds_Dev_Website/static/js/main.6649d176.js",
+    "main.js": "/Skillminds_Dev_Website/static/js/main.ededeb66.js",
     "index.html": "/Skillminds_Dev_Website/index.html",
     "static/media/slick.svg": "/Skillminds_Dev_Website/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Skillminds_Dev_Website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Skillminds_Dev_Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Skillminds_Dev_Website/static/media/slick.295183786cd8a1389865.woff",
     "main.0fa87b74.css.map": "/Skillminds_Dev_Website/static/css/main.0fa87b74.css.map",
-    "main.6649d176.js.map": "/Skillminds_Dev_Website/static/js/main.6649d176.js.map"
+    "main.ededeb66.js.map": "/Skillminds_Dev_Website/static/js/main.ededeb66.js.map"
   },
   "entrypoints": [
     "static/css/main.0fa87b74.css",
-    "static/js/main.6649d176.js"
+    "static/js/main.ededeb66.js"
   ]
 }
