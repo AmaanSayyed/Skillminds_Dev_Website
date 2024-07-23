@@ -1,5 +1,9 @@
 import './index.css'
+<<<<<<< HEAD
 import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+=======
+import {BrowserRouter as Router, Route, Switch,Redirect} from 'react-router-dom';
+>>>>>>> b333cdcc7400f5f1db9c1f1cb3dc92554f0d0c70
 import Header from './Header/Header';
 import Home from './Home/Home';
 import ScrollTop from './utilites/ScrollTop';
@@ -20,14 +24,14 @@ const App=()=> {
   return (
     <Router>
     <div className="App">
-      //rendering utilites
+     
       <ScrollToTop/>
       <ScrollTo/>
       <Header/>
       <SmoothScroll/>
       <ScrollTop />
 
-      //routes 
+      
       <Switch>
         <Route exact path="/">
           <Home/>
