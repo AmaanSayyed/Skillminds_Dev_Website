@@ -9,11 +9,11 @@ const BlogDetails = () => {
                 <div className="col-xxl-8 col-lg-7">
                     <div className="th-blog blog-single">
                         <div className="blog-img">
-                            <img src="./Skillminds_Dev_Website/assets/img/blog/blog-s-1-1.jpg" alt="Blog Image" />
+                            <img src="./assets/img/blog/blog-s-1-1.jpg" alt="Blog Image" />
                         </div>
                         <div className="blog-content">
                             <div className="blog-meta">
-                                <a className="author" href="blog.html"><img src="./Skillminds_Dev_Website/assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a>
+                                <a className="author" href="blog.html"><img src="./assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a>
                                 <a href="blog.html"><i className="fa-light fa-calendar-days"></i>21 June, 2024</a>
                                 <a href="blog-details.html"><i className="fa-regular fa-comments"></i>Comments (3)</a>
                             </div>
@@ -53,10 +53,10 @@ const BlogDetails = () => {
                                 vertical e-business.</p>
                             <div className="row mt-15">
                                 <div className="col-md-6 mb-4">
-                                    <img className="w-100 rounded-3" src="./Skillminds_Dev_Website/assets/img/blog/blog_inner_1.jpg" alt="Blog Image" />
+                                    <img className="w-100 rounded-3" src="./assets/img/blog/blog_inner_1.jpg" alt="Blog Image" />
                                 </div>
                                 <div className="col-md-6 mb-4">
-                                    <img className="w-100 rounded-3" src="./Skillminds_Dev_Website/assets/img/blog/blog_inner_2.jpg" alt="Blog Image" />
+                                    <img className="w-100 rounded-3" src="./assets/img/blog/blog_inner_2.jpg" alt="Blog Image" />
                                 </div>
                             </div>
                             <p>Globally cultivate ubiquitous growth strategies before team building users. Dramatically
@@ -97,7 +97,7 @@ const BlogDetails = () => {
                             <li className="th-comment-item">
                                 <div className="th-post-comment">
                                     <div className="comment-avater">
-                                        <img src="./Skillminds_Dev_Website/assets/img/blog/comment-author-1.jpg" alt="Comment Author" />
+                                        <img src="./assets/img/blog/comment-author-1.jpg" alt="Comment Author" />
                                     </div>
                                     <div className="comment-content">
                                         <span className="commented-on"><i className="fal fa-calendar-alt"></i>14 March, 2024</span>
@@ -112,7 +112,7 @@ const BlogDetails = () => {
                                     <li className="th-comment-item">
                                         <div className="th-post-comment">
                                             <div className="comment-avater">
-                                                <img src="./Skillminds_Dev_Website/assets/img/blog/comment-author-2.jpg" alt="Comment Author" />
+                                                <img src="./assets/img/blog/comment-author-2.jpg" alt="Comment Author" />
                                             </div>
                                             <div className="comment-content">
                                                 <span className="commented-on"><i className="fal fa-calendar-alt"></i>15 March, 2024</span>
@@ -130,7 +130,7 @@ const BlogDetails = () => {
                             <li className="th-comment-item">
                                 <div className="th-post-comment">
                                     <div className="comment-avater">
-                                        <img src="./Skillminds_Dev_Website/assets/img/blog/comment-author-3.jpg" alt="Comment Author" />
+                                        <img src="./assets/img/blog/comment-author-3.jpg" alt="Comment Author" />
                                     </div>
                                     <div className="comment-content">
                                         <span className="commented-on"><i className="fal fa-calendar-alt"></i>16 March, 2024</span>
@@ -208,27 +208,27 @@ const BlogDetails = () => {
                             <h3 className="widget_title">Gallery Post</h3>
                             <div className="sidebar-gallery">
                                 <div className="gallery-thumb">
-                                    <img src="./Skillminds_Dev_Website/assets/img/widget/gallery_1_1.jpg" alt="Gallery Image" />
+                                    <img src="./assets/img/widget/gallery_1_1.jpg" alt="Gallery Image" />
                                     <a href="assets/img/widget/gallery_1_1.jpg" className="gallery-btn popup-image"><i className="fab fa-instagram"></i></a>
                                 </div>
                                 <div className="gallery-thumb">
-                                    <img src="./Skillminds_Dev_Website/assets/img/widget/gallery_1_2.jpg" alt="Gallery Image" />
+                                    <img src="./assets/img/widget/gallery_1_2.jpg" alt="Gallery Image" />
                                     <a href="assets/img/widget/gallery_1_2.jpg" className="gallery-btn popup-image"><i className="fab fa-instagram"></i></a>
                                 </div>
                                 <div className="gallery-thumb">
-                                    <img src="./Skillminds_Dev_Website/assets/img/widget/gallery_1_3.jpg" alt="Gallery Image" />
+                                    <img src="./assets/img/widget/gallery_1_3.jpg" alt="Gallery Image" />
                                     <a href="assets/img/widget/gallery_1_3.jpg" className="gallery-btn popup-image"><i className="fab fa-instagram"></i></a>
                                 </div>
                                 <div className="gallery-thumb">
-                                    <img src="./Skillminds_Dev_Website/assets/img/widget/gallery_1_4.jpg" alt="Gallery Image" />
+                                    <img src="./assets/img/widget/gallery_1_4.jpg" alt="Gallery Image" />
                                     <a href="assets/img/widget/gallery_1_4.jpg" className="gallery-btn popup-image"><i className="fab fa-instagram"></i></a>
                                 </div>
                                 <div className="gallery-thumb">
-                                    <img src="./Skillminds_Dev_Website/assets/img/widget/gallery_1_5.jpg" alt="Gallery Image" />
+                                    <img src="./assets/img/widget/gallery_1_5.jpg" alt="Gallery Image" />
                                     <a href="assets/img/widget/gallery_1_5.jpg" className="gallery-btn popup-image"><i className="fab fa-instagram"></i></a>
                                 </div>
                                 <div className="gallery-thumb">
-                                    <img src="./Skillminds_Dev_Website/assets/img/widget/gallery_1_6.jpg" alt="Gallery Image" />
+                                    <img src="./assets/img/widget/gallery_1_6.jpg" alt="Gallery Image" />
                                     <a href="assets/img/widget/gallery_1_6.jpg" className="gallery-btn popup-image"><i className="fab fa-instagram"></i></a>
                                 </div>
                             </div>
@@ -238,7 +238,7 @@ const BlogDetails = () => {
                             <div className="recent-post-wrap">
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="./Skillminds_Dev_Website/assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a>
+                                        <a href="blog-details.html"><img src="./assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Unsatiable entreaties may collecting Power.</a></h4>
@@ -249,7 +249,7 @@ const BlogDetails = () => {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="./Skillminds_Dev_Website/assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a>
+                                        <a href="blog-details.html"><img src="./assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Regional Manager limited time management.</a></h4>
@@ -260,7 +260,7 @@ const BlogDetails = () => {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="./Skillminds_Dev_Website/assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"/></a>
+                                        <a href="blog-details.html"><img src="./assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"/></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="blog-details.html">What’s the Holding Back It Solution Industry?</a></h4>

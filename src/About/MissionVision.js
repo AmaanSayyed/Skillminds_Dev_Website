@@ -9,7 +9,7 @@ const MissionVision = () => {
         {/* Mission Section */}
         <div className="tw-shadow-lg tw-rounded-md tw-flex tw-flex-col-reverse sm:tw-flex-row tw-gap-12 tw-w-full sm:tw-w-3/4 tw-items-center tw-bg-slate-100 tw-p-8">
           <div className="img tw-w-full sm:tw-w-1/2 tw-flex tw-justify-center">
-            <img src="./Skillminds_Dev_Website/assets/img/mission.jpg" alt="mission" className="tw-rounded-full tw-w-max tw-object-cover tw-shadow-md"/>
+            <img src="./assets/img/mission.jpg" alt="mission" className="tw-rounded-full tw-w-max tw-object-cover tw-shadow-md"/>
           </div>
           <div className="content tw-w-full sm:tw-w-1/2 tw-px-2">
             <h2 className="tw-text-3xl tw-text-blue-500 tw-font-semibold tw-mb-4">Our Mission</h2>
@@ -20,7 +20,7 @@ const MissionVision = () => {
         {/* Vision Section */}
         <div className="tw-shadow-lg tw-rounded-md tw-flex tw-flex-col-reverse sm:tw-flex-row-reverse tw-gap-12 tw-w-full sm:tw-w-3/4 tw-items-center tw-bg-slate-100 tw-p-8">
           <div className="img tw-w-full sm:tw-w-1/2 tw-flex tw-justify-center">
-            <img src="./Skillminds_Dev_Website/assets/img/vision.jpg" alt="vision" className="tw-rounded-full tw-w-max tw-object-cover tw-shadow-md"/>
+            <img src="./assets/img/vision.jpg" alt="vision" className="tw-rounded-full tw-w-max tw-object-cover tw-shadow-md"/>
           </div>
           <div className="content tw-w-full sm:tw-w-1/2 tw-px-2">
             <h2 className="tw-text-3xl tw-text-blue-500 tw-font-semibold tw-mb-4">Our Vision</h2>

@@ -1,12 +1,12 @@
 const Feature = () => {
     return (
-    <div className="space" data-bg-src="./Skillminds_Dev_Website/assets/img/bg/why_bg_1.png">
+    <div className="space" data-bg-src="./assets/img/bg/why_bg_1.png">
         <div className="container">
             <div className="row align-items-center flex-row-reverse">
                 <div className="col-xxl-7 col-xl-6 mb-30 mb-xl-0">
                     <div className="img-box2">
                         <div className="img1">
-                            <img src="./Skillminds_Dev_Website/assets/img/normal/why_1_1.jpg" alt="Why"/>
+                            <img src="./assets/img/normal/why_1_1.jpg" alt="Why"/>
                         </div>
                     </div>
                 </div>
@@ -14,8 +14,8 @@ const Feature = () => {
                     <div className="title-area mb-35">
                         <span className="sub-title">
                             <div className="icon-masking me-2">
-                                <span className="mask-icon" data-mask-src="./Skillminds_Dev_Website/assets/img/theme-img/title_shape_1.svg"></span>
-                                <img src="./Skillminds_Dev_Website/assets/img/theme-img/title_shape_1.svg" alt="shape"/>
+                                <span className="mask-icon" data-mask-src="./assets/img/theme-img/title_shape_1.svg"></span>
+                                <img src="./assets/img/theme-img/title_shape_1.svg" alt="shape"/>
                             </div>
                             WHY CHOOSE US
                         </span>
