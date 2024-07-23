@@ -22,7 +22,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu }) => {
         <div className="th-mobile-menu" style={{ display: isMenuOpen ? 'block' : 'none' }}>
           <ul>
             <li className="menu-item-has-children mega-menu-wrap">
-              <a href="/" >Home</a>
+              <Link  to="/" >Home</Link>
             </li>
             <li className="menu-item-has-children">
               <Link to="/#about-sec" onClick={handleLinkClick}>Company</Link>
