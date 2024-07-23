@@ -11,32 +11,32 @@ const Service = () => {
         {
             title: "Test Automation",
             description: "Experts in Provar and Selenium automation tools and Softwares.",
-            img: "assets/img/icon/service_7_1.svg"
+            img: "./Skillminds_Dev_Website/assets/img/icon/service_7_1.svg"
         },
         {
             title: "MuleSoft",
             description: "Expertise in Integration with Salesforce and other applications Tuning up MuleSoft.",
-            img: "assets/img/icon/service_7_1.svg"
+            img: "./Skillminds_Dev_Website/assets/img/icon/service_7_1.svg"
         },
         {
             title: "Business Transformations",
             description: "Moving Legacy Business to SFDC Business Mapping of Processes Complex Data migration.",
-            img: "assets/img/icon/service_7_1.svg"
+            img: "./Skillminds_Dev_Website/assets/img/icon/service_7_1.svg"
         },
         {
             title: "Salesforce CRM",
             description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, excepturi?.",
-            img: "assets/img/icon/service_7_1.svg"
+            img: "./Skillminds_Dev_Website/assets/img/icon/service_7_1.svg"
         },
         {
             title: "Test Automation",
             description: "Experts in Provar and Selenium automation tools and Softwares.",
-            img: "assets/img/icon/service_7_1.svg"
+            img: "./Skillminds_Dev_Website/assets/img/icon/service_7_1.svg"
         },
         {
             title: "MuleSoft",
             description: "Expertise in Integration with Salesforce and other applications Tuning up MuleSoft .",
-            img: "assets/img/icon/service_7_1.svg"
+            img: "./Skillminds_Dev_Website/assets/img/icon/service_7_1.svg"
         },
     ]);
 
@@ -72,7 +72,7 @@ const Service = () => {
                     <div className="title-area text-center">
                         <span className="sub-title">
                             <div className="icon-masking me-2">
-                                <img src="assets/img/theme-img/title_shape_4.svg" alt="shape"/>
+                                <img src="./Skillminds_Dev_Website/assets/img/theme-img/title_shape_4.svg" alt="shape"/>
                             </div>Our Expertise
                         </span>
                         <h2 className="sec-title">We are expert in Salesforce CRM and Integration Solutions</h2>
@@ -88,7 +88,7 @@ const Service = () => {
                             <SwiperSlide key={index}>
                             <div className="service_card4 tw-shadow-custom tw-mx-2">
                                 <div className="box-icon ">
-                                    <img src="assets/img/icon/service_7_1.svg" alt="Icon"/>
+                                    <img src="./Skillminds_Dev_Website/assets/img/icon/service_7_1.svg" alt="Icon"/>
                                 </div>
                                 <h3 className="box-title"><a href="service-details.html">{service.title}</a></h3>
                                 <p className="service_card4_text">{service.description}</p>

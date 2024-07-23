@@ -6,16 +6,16 @@ import 'swiper/swiper.min.css'; // Import Swiper styles
 
 const Brand = () => {
   let brands = [
-    'assets/img/brand/brand_8_1.svg',
-    'assets/img/brand/brand_8_2.svg',
-    'assets/img/brand/brand_8_3.svg',
-    'assets/img/brand/brand_8_4.svg',
-    'assets/img/brand/brand_8_5.svg',
-    'assets/img/brand/brand_8_1.svg',
-    'assets/img/brand/brand_8_2.svg',
-    'assets/img/brand/brand_8_3.svg',
-    'assets/img/brand/brand_8_4.svg',
-    'assets/img/brand/brand_8_5.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_1.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_2.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_3.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_4.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_5.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_1.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_2.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_3.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_4.svg',
+    './Skillminds_Dev_Website/assets/img/brand/brand_8_5.svg',
   ];
 
   // Swiper settings

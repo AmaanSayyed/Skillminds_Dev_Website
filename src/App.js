@@ -1,5 +1,5 @@
 import './index.css'
-import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './Header/Header';
 import Home from './Home/Home';
 import ScrollTop from './utilites/ScrollTop';
@@ -20,13 +20,14 @@ const App=()=> {
   return (
     <Router>
     <div className="App">
-      
+      //rendering utilites
       <ScrollToTop/>
       <ScrollTo/>
       <Header/>
       <SmoothScroll/>
-      
       <ScrollTop />
+
+      //routes 
       <Switch>
         <Route exact path="/">
           <Home/>

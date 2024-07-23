@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const MobileMenu = ({ isMenuOpen, toggleMenu }) => {
-  const handleLinkClick = () => {
+  const handleLinkClick = () =>  {
     toggleMenu(); // Close the menu when a link is clicked
   };
 
