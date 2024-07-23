@@ -20,14 +20,14 @@ const App=()=> {
   return (
     <Router>
     <div className="App">
-      //rendering utilites
+     
       <ScrollToTop/>
       <ScrollTo/>
       <Header/>
       <SmoothScroll/>
       <ScrollTop />
 
-      //routes 
+      
       <Switch>
         <Route exact path="/">
           <Home/>
